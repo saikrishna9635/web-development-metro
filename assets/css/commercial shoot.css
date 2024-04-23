@@ -1,0 +1,187 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+ 
+.commercial{
+    
+    background-image: url(/assets/uploads/images/typing.avif);
+    width: 99%;
+    height: 400px;
+    background-size: cover; 
+}
+.shoot{
+   margin-bottom: 50px; 
+   padding-top: 200px;
+   color: white;
+   margin-left: 20px;
+}
+.shoot1{
+    color: white;
+    margin-left: 20px;
+
+}
+.acolor{
+    text-decoration: none;
+    color:white ;
+}
+.shoot3{
+    padding-top: 50px;
+    margin-left: 40px;
+
+}
+.ucolor{
+    color:blue;
+}
+.uspan color{
+    color: black;
+}
+.contact{
+    padding-top: 30px;
+    margin-left: 40px;
+   
+    
+}
+.commercial1{
+    padding-top: 10px;
+    margin-left: 60px;
+    color: blue;
+}
+.contact>a>button{
+    padding: 20px;
+    font-size: 20px;
+   
+}
+.ltmetro>img{
+    width: 300px;
+    margin-left: 900px;
+}
+
+
+button:hover{
+     background-color: blue; 
+    color: white;
+   
+}
+
+
+
+@media screen  and (max-width: 1025px){
+   
+   .commercial{
+     background-image: url(/assets/uploads/images/typing.avif);
+     width: 100%;
+     height: 400px;
+    }
+
+.ltmetro>img{
+     margin-left: 700px;
+    }
+
+    
+
+.button{
+    padding-left: 20px;
+     padding-bottom: 50px;
+    /* padding-top: -80px; */
+    height: 100px;
+    width: 20%;
+    font-size: 50px;
+}
+.contact{
+    padding-top: 30px;
+    margin-left: 40px;
+    font-size: 20px;
+
+}
+.contact>a>button{
+    padding: 20px;
+    font-size: 20px;
+    color: blue;
+    width: 200px;
+
+}
+}
+
+@media screen  and (max-width: 769px){
+    .commercial{
+        background-image: url(/assets/uploads/images/typing.avif);
+        width: 1000px;
+        height: 300px;
+        /* background-size: cover;  */
+    }
+    .shoot1{
+        color: white;
+        margin-left: 20px;
+        margin-top: -20px;
+    
+    }
+    .ltmetro>img{
+        margin-left: 600px; 
+      
+       
+       }
+       .contact{
+        padding-top: 30px;
+        margin-left: 40px;
+        font-size: 18px;
+    
+    }
+    .contact>a>button{
+        padding: 20px;
+        font-size: 18px;
+        color: blue;
+        width: 200px;
+        height: 70px;
+    
+    }
+
+
+}
+
+@media screen  and (max-width: 426px){
+    .commercial{
+        background-image: url(/assets/uploads/images/typing.avif);
+        width: 420px;
+        height: 200px;
+        background-size: cover; 
+    }
+    .button{
+        padding-left: 20px;
+         padding-bottom: 50px;
+        /* padding-top: -80px; */
+        height: 100px;
+        width: 50%;
+        font-size: 70px;
+}
+.contact{
+    padding-top: 30px;
+    margin-left: 40px;
+    font-size: 25px;
+    /* height: 500px;
+    width: 30%; */
+}
+
+
+.ltmetro>img{
+  margin-left: 40px; 
+
+ 
+ }
+ .contact{
+    padding-top: 30px;
+    margin-left: 40px;
+    font-size: 13px;
+
+}
+.contact>a>button{
+    padding: 20px;
+    font-size: 13px;
+    color: blue;
+    width: 150px;
+    height: 50px;
+
+}
+}
